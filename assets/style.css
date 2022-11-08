@@ -251,4 +251,24 @@ html {
 
 }
 
+.div-content-contato {
+    margin: 10vh;
+    margin-top: 16vh;
+}
+
+
+.label-input{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 2vw;
+
+    /* display: flex; */
+    padding: 0.2vw;
+    color: #FEF7F7;
+}
+
+
+
 
