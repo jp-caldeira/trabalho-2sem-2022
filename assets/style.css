@@ -17,7 +17,7 @@ html {
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 2vw;
     padding: 0.5vw;
 }
 
@@ -210,7 +210,7 @@ html {
     font-size: 1.5rem;
     line-height: 28px;
     margin: 4vh 0.5vw 4vh 0.5vw;
-    
+
 
     /* align-items: center;
     text-align: center; */
@@ -219,7 +219,7 @@ html {
 }
 
 .title-servicos {
-    top: 15vh;
+    top: 12vh;
     width: 100%;
     /* left: 40vw; */
     position: absolute;
@@ -252,23 +252,92 @@ html {
 }
 
 .div-content-contato {
-    margin: 10vh;
-    margin-top: 16vh;
+    margin: 17vh;
+    margin-top: 10vh;
+    padding: 6vh;
 }
 
 
-.label-input{
+.label-input {
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5rem;
-    margin-top: 2vw;
+    font-size: 1rem;
+    margin-top: 1.5vw;
+
+    /* display: flex; */
+    padding: 0.1vw;
+    color: #FEF7F7;
+}
+
+.subtitle-contato {
+    width: 100%;
+    position: relative;
+    /* display: block; */
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5vh;
+    margin-bottom: 0;
+}
+
+.contato-title-2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+
+    color: #FEF7F7;
+}
+
+.label-input2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 0.5vh;
 
     /* display: flex; */
     padding: 0.2vw;
     color: #FEF7F7;
 }
 
+.button-purple {
+    background: #9e05a1e7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    /* align-items: center;
+    text-align: center; */
 
+    color: #FFFFFF;
+}
 
+.button-purple:hover {
+    background: #9e10a1;
+    color: #FFFFFF;
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    transform: translateY(-1px);
+}
 
+.button-green {
+    background: #057E61;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.button-green:hover {
+    background: #049775;
+    color: #FFFFFF;
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    transform: translateY(-1px);
+}
