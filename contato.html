@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
     <link rel="stylesheet" href="assets/style.css">
+    <script type="text/javascript" src="assets/script.js" defer></script>
 </head>
 <body>
      <nav class="navbar navbar-expand-sm nav-style-1">
@@ -41,33 +42,33 @@
     <div class="row">
         <div class='col-4'>
             <label for="razao-social" class="label-input">Razão Social</label>
-              <input type="text" class="form-control" name="razao-social" placeholder="Razão Social">
+              <input type="text" class="form-control" id='razao-social' name="Razão Social" placeholder="Razão Social" required>
         </div>
         <div class="col-4">
             <label for="cnpj" class="label-input">CNPJ</label>
-              <input type="number" class="form-control" name="cnpj" placeholder="CNPJ">
+              <input type="number" class="form-control" id="cnpj" name="CNPJ" placeholder="CNPJ" required>
         </div>
         <div class="col-4">
             <label for="inscricao-estadual" class="label-input">Inscrição Estadual</label>
-            <input type="text" class="form-control" name="inscricao-estadual" placeholder="Inscrição Estadual">
+            <input type="text" class="form-control" id="inscricao-estadual" name="inscricao-estadual" placeholder="Inscrição Estadual">
         </div>
     </div>
     <div class="row">
         <div class="col-2">
             <label for="CEP" class="label-input">CEP</label>
-              <input type="text" class="form-control" name="cep" placeholder="CEP">
+              <input type="text" class="form-control" id='cep' name="CEP" placeholder="CEP" required>
         </div>
         <div class="col-4">
             <label for="endereco" class="label-input">Endereço</label>
-            <input type="text" class="form-control" name="endereco" placeholder="Endereço">
+            <input type="text" class="form-control" id='endereco' name="Endereço" placeholder="Endereço" required>
         </div>
         <div class="col-2">
             <label for="número" class="label-input">Número</label>
-              <input type="text" class="form-control" name="numero" placeholder="Número">
+              <input type="text" class="form-control" id="numero" name="Número" placeholder="Número" required>
         </div>
         <div class="col-4">
             <label for="complemento" class="label-input">Complemento</label>
-            <input type="text" class="form-control" name="endereco" placeholder="Endereço">
+            <input type="text" class="form-control" name="Complemento" placeholder="complemento">
         </div>
     </div>
     <div class="row">
@@ -77,11 +78,11 @@
         </div>
         <div class="col-4">
             <label for="cidade" class="label-input">Cidade</label>
-              <input type="text" class="form-control" name="cidade" placeholder="Cidade">
+              <input type="text" class="form-control" id='cidade' name="Cidade" placeholder="Cidade" required>
         </div>
         <div class="col-4">
             <label for="Estado" class="label-input">Estado</label>
-            <input type="text" class="form-control" name="estado" placeholder="Estado">
+            <input type="text" class="form-control" id="estado" name="Estado" placeholder="Estado" required>
         </div>
     </div>
     <div class="row">
@@ -94,23 +95,23 @@
     <div class="row">
         <div class="col-4">
             <label for="Nome" class="label-input2">Nome</label>
-            <input type="text" class="form-control" name="nome" placeholder="Nome">
+            <input type="text" class="form-control" id='nome' name="Nome" placeholder="Nome" required>
         </div>
         <div class="col-4">
             <label for="Email" class="label-input2">Email</label>
-            <input type="email" class="form-control" name="email" placeholder="Email">
+            <input type="email" class="form-control" id="email" name="Email" placeholder="Email" required>
         </div>
         <div class="col-4">
             <label for="Telefone" class="label-input2">Telefone</label>
-            <input type="phone" class="form-control" name="telefone" placeholder="Telefone">
+            <input type="phone" class="form-control" name="Telefone" placeholder="Telefone">
         </div>
     </div>
     <div class="row m-4 p-3">
             <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn button-purple">Enviar</button>
+                <button class="btn button-purple" onclick="sendForm()">Enviar</button>
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn button-green">Voltar</button>
+                <a class="btn button-green" href='index.html'>Voltar</a>
             </div>
     </div>
 
