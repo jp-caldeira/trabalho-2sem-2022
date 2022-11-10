@@ -1,4 +1,3 @@
-
 function sendForm(){
 
     let inputs = [];
@@ -43,3 +42,6 @@ function sendForm(){
 
 }
 
+function linkTo(link){
+    window.location.href = link;
+}

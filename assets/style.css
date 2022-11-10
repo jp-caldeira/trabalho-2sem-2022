@@ -7,17 +7,22 @@ html {
 .nav-style-1 {
     background-color: #5F0261;
     height: 15vh;
+    flex-direction: row;
 }
 
 .nav-bar-center {
     margin: auto;
 }
 
+.nav-center {
+    flex-direction: row;
+}
+
 .nav-item-style {
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 600;
-    font-size: 2vw;
+    font-size: 3vw;
     padding: 0.5vw;
 }
 
@@ -62,7 +67,7 @@ html {
     font-family: 'Barlow';
     /* font-style: normal; */
     font-weight: 600;
-    font-size: 7.5rem;
+    font-size: 12vw;
     line-height: 39%;
     margin-top: 18vh;
     margin-left: 10vw;
@@ -76,13 +81,12 @@ html {
     width: 100%;
     top: 40vh;
     position: absolute;
-    /* height: 142px; */
     margin-top: 10vh;
 }
 
 .second-title {
     margin-left: 10vw;
-    font-size: 2.5rem;
+    font-size: 3.5vw;
     font-family: barlow;
     font-weight: 400;
     display: flex;
@@ -108,7 +112,7 @@ html {
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     line-height: 50px;
     padding: 1vw 10vh 1vw 10vh;
     display: flex;
@@ -234,7 +238,7 @@ html {
 
 .h1-servicos {
     color: #D9D9D9;
-    font-size: 4.5rem;
+    font-size: 12vh;
     font-weight: 600;
     font-family: 'Barlow';
 }
@@ -340,4 +344,231 @@ html {
     color: #FFFFFF;
     box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
     transform: translateY(-1px);
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+
+    .nav-item-style {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3.5vw;
+        padding: 0.5vw;
+        /* margin: 0.5vw; */
+    }
+
+    .quem-somos-container {
+        position: absolute;
+        margin-top: 10vh;
+        left: 5vw;
+        height: 60vh;
+        max-width: 90vw;
+        padding: 5vh 1vw 1vh 1vw;
+        background-color: rgba(174, 175, 183, 0.75);
+        border-radius: 8px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-content-contato {
+        margin: 5vh;
+        margin-top: 12vh;
+        padding: 3vh;
+    }
+
+    .h1-servicos {
+        font-size: 10vh;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+
+    .nav-item-style {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3.5vw;
+        padding: 0.8vw;
+        /* margin: 0.5vw; */
+    }
+
+    .quem-somos-container {
+        position: absolute;
+        margin-top: 5vh;
+        left: 5vw;
+        height: 65vh;
+        max-width: 90vw;
+        padding: 0.8vh 1vw 1vh 1vw;
+        background-color: rgba(174, 175, 183, 0.75);
+        border-radius: 8px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-content-contato {
+        margin: 5vh;
+        margin-top: 12vh;
+        padding: 3vh;
+    }
+
+    .h1-servicos {
+        font-size: 8vh;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+
+    .nav-item-style {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.5vw;
+        padding: 0.7vw;
+        /* margin: 1vw; */
+    }
+
+    .nav-style-1 {
+        background-color: #5F0261;
+        height: 12vh;
+        flex-direction: row;
+    }
+
+    .quem-somos-container {
+        position: absolute;
+        margin-top: 5vh;
+        left: 5vw;
+        height: auto;
+        max-width: 90vw;
+        padding: 1vh 1vw 1vh 1vw;
+        background-color: rgba(174, 175, 183, 0.75);
+        border-radius: 8px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-content-contato {
+        margin: 2vh;
+        margin-top: 12vh;
+        padding: 3vh;
+    }
+
+    .h1-servicos {
+        font-size: 8vh;
+    }
+
+    .title-servicos {
+        margin-top: 2.5vh;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .main-title {
+        font-size: 15vw;
+        line-height: 39%;
+        margin-top: 15vh;
+        margin-left: 12vw;
+        left: 0;
+        right: 0;
+    }
+
+    .second-title-container {
+        width: 100%;
+        top: 40vh;
+        position: absolute;
+        margin-top: 5vh;
+    }
+
+    .second-title {
+        margin-left: 12vw;
+        font-size: 3.5vw;
+    }
+
+    .container-btn {
+        position: absolute;
+        width: 50vw;
+        height: 5vh;
+        padding-left: 12vw;
+        top: 55vh;
+    }
+
+    .quem-somos-container {
+        position: absolute;
+        margin-top: 2vh;
+        left: 5vw;
+        height: auto;
+        max-width: 90vw;
+        padding: 0.5vh 1vw 1vh 1vw;
+        background-color: rgba(174, 175, 183, 0.75);
+        border-radius: 8px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .h1-qs-1 {
+        font-size: 10vw;
+    }
+
+    .qs-text-2 {
+        font-size: 3.5vw;
+    }
+
+    .div-content-contato {
+        margin: 2vh;
+        margin-top: 10vh;
+        padding: 3vh;
+    }
+
+    .h1-servicos {
+        font-size: 7vh;
+    }
+
+    .title-servicos {
+        margin-top: 5vh;
+    }
+}
+
+@media screen and (max-width: 427px) {
+
+    .main-title {
+        font-size: 18vw;
+    }
+
+    .second-title {
+        margin-left: 13vw;
+        font-size: 4vw;
+    }
+
+    .nav-item-style {
+        font-size: 3.8vw;
+        /* padding: 0.7vw; */
+        /* margin: 1vw; */
+    }
+
+    .saiba-mais {
+        font-size: 4.5vw;
+    }
+
+    .container-btn {
+        top: 55vh;
+    }
+
+    .div-content-contato {
+        margin: 1vh;
+        margin-top: 10vh;
+        padding: 3vh;
+    }
+
+    .h1-servicos {
+        font-size: 7.5vh;
+    }
+
+    .title-servicos {
+        margin-top: 5vh;
+    }
+
 }
