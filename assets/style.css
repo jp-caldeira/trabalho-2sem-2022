@@ -67,7 +67,7 @@ html {
     font-family: 'Barlow';
     /* font-style: normal; */
     font-weight: 600;
-    font-size: 12vw;
+    font-size: 8vw;
     line-height: 39%;
     margin-top: 18vh;
     margin-left: 10vw;
@@ -468,7 +468,6 @@ html {
 @media screen and (max-width: 600px) {
 
     .main-title {
-        font-size: 15vw;
         line-height: 39%;
         margin-top: 15vh;
         margin-left: 12vw;
@@ -535,12 +534,13 @@ html {
 @media screen and (max-width: 427px) {
 
     .main-title {
-        font-size: 18vw;
+        font-size: 9.5vw;
+        margin-left: 4vw;
     }
 
     .second-title {
-        margin-left: 13vw;
-        font-size: 4vw;
+        margin-left: 4vw;
+        font-size: 5vw;
     }
 
     .nav-item-style {
@@ -555,6 +555,7 @@ html {
 
     .container-btn {
         top: 55vh;
+        padding-left: 3vw;
     }
 
     .div-content-contato {
